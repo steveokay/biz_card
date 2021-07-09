@@ -40,7 +40,13 @@ class BizCard extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("Pailo Dichone"),
+          Text("James Bond",
+            style: TextStyle(fontSize: 20.9,
+              fontWeight: FontWeight.w500,
+              color: Colors.blue
+            ),
+          ),
+
           Text("buildappswithpaulo.com"),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
